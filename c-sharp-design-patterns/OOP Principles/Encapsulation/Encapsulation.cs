@@ -7,7 +7,8 @@ namespace c_sharp_design_patterns.OOP_Principles.Encapsulation
     public class Encapsulation
     {
 
-        /* Encapsulation means bundling data and the methods that operate on that data into a single unit or class,
+        /* 
+         * Encapsulation means bundling data and the methods that operate on that data into a single unit or class,
          * and restricting direct access to internal state.
          */
 
