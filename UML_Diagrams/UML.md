@@ -10,35 +10,37 @@ A `Dog` class with a private `name` property and public `bark()` method.
 
 ![Dog Class](./dog.png)
 
+Access modifiers:
+
 - "+" means public
 - "-" means private
-
+- "#" means protected
+- "~" means package local
 
 ## Inheritance
 
-A `Dog` class that inherits from the `Animal` class. Represented with a solid line and a closed, unfilled arrowhead pointing to the parent class.
+`Dog`, `Cat` and `Fish` classes inherits from the `Animal` class. Represented with a solid line and a closed, unfilled arrowhead pointing to the parent class.
 
 ![Inheritance](./inheritance.png)
 
-
 ## Composition
 
-A `Dog` class that has a `Size` class as a property. Represented with a solid line and a filled diamond at the owning class end.
+A `Car` class that has `Engine`, `Wheel`, and `Door` classes as properties. Represented with a solid line and a filled diamond at the owning class end.
 
 ![Composition](./composition.png)
 
-
 ## Association Relationship
 
-A `Dog` class that is associated with an `Owner` class. Represented with a solid line with arrowhead pointing to the associated class.
+A `Student` class that is associated with an `Teacher` class. Represented with a solid line with arrowhead pointing to the associated class.
 
-A `Dog` "has an" `Owner`, but a `Dog` can exist without an `Owner`, unlike composition, where the owned class cannot exist without the owning class.
+A `Student` "has an" `Teacher`, but a `Student` can exist without an `Teacher`, unlike composition, where the owned class cannot exist without the owning class.
 
 ![Association](./association.png)
 
-
 ## Dependency Relationship
 
-A `Dog` class that depends on a `Vet` class. Represented with a dashed line and an open arrowhead pointing to the depended-on class.
+A `Car` class that depends on a `GPS` class. Represented with a dashed line and an open arrowhead pointing to the depended-on class.
+
+`GPS` is not a field in `Car` but is used elsewere -- in this case it's a parameter, but it could also be a variable in `Car` or a temporary object within a method.
 
 ![Dependency](./dependency.png)
