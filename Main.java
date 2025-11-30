@@ -4,10 +4,12 @@ import OOP_Principles.Coupling.Coupling;
 import OOP_Principles.Encapsulation.Encapsulation;
 import OOP_Principles.Inheritance.Inheritance;
 import OOP_Principles.Polymorphism.Polymorphism;
+import SOLID.Single_Responsibility_Principle.SingleResponsibilityPrinciple;
 
 public class Main {
 
   public static void main(String[] args) {
+    // OOP Principles
     Encapsulation encapsulation = new Encapsulation();
     Abstraction abstraction = new Abstraction();
     Polymorphism polymorphism = new Polymorphism();
@@ -15,6 +17,11 @@ public class Main {
     Composition composition = new Composition();
     Coupling coupling = new Coupling();
 
-    polymorphism.Example();
+    // SOLID Principles
+    SingleResponsibilityPrinciple singleResponsibilityPrinciple =
+      new SingleResponsibilityPrinciple();
+
+    // Testing
+    singleResponsibilityPrinciple.BadExample();
   }
 }
