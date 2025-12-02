@@ -12,12 +12,12 @@ public class Coupling {
    * allowing for greater flexibility and easier maintenance. This can be done via an abstraction / interface.
    */
 
-  public void TightCouplingExample() {
+  public void TightCouplingexample() {
     TightOrder order = new TightOrder();
     order.PlaceOrder(); // Order class is tightly coupled with EmailSender class
   }
 
-  public void LooseCouplingExample() {
+  public void LooseCouplingexample() {
     NotificationService[] services = {
       new LooseEmailService(),
       new SmsService(),

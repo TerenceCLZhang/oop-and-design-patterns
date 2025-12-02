@@ -9,7 +9,7 @@ public class Composition {
    * "has-a" relationship, where one object "has" another object as a part of its state.
    */
 
-  public void Example() {
+  public void example() {
     Car car = new Car();
     car.StartCar();
   }

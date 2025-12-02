@@ -7,7 +7,7 @@ public class Abstraction {
    * only the essential features.
    */
 
-  public void BadExample() {
+  public void badExample() {
     /*
      * BadEmailService exposes too many internal steps, forcing the user to understand and
      * manually perform the correct sequence. This leaks implementation details, increases
@@ -21,7 +21,7 @@ public class Abstraction {
     badEmailService.Disconnect();
   }
 
-  public void GoodExample() {
+  public void goodExample() {
     /*
      * EmailService provides good abstraction because it hides all internal operations
      * and exposes only the essential action: SendEmail(). This class handles connection,

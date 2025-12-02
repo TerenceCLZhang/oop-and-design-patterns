@@ -9,7 +9,7 @@ public class Inheritance {
    * as an "is-a" relationship.
    */
 
-  public void Example() {
+  public void example() {
     Car car = new Car("Ford", "Mustang", 2025, 4);
     MotorBike motorBike = new MotorBike(
       "Harley Davidson",

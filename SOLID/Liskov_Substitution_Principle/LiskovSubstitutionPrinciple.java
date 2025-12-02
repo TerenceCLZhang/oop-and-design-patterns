@@ -8,7 +8,7 @@ public class LiskovSubstitutionPrinciple {
         Violations of this principle can lead to unexpected errors or broken polymorphism, where substituting a subclass causes failures or changes in behaviour.
     */
 
-  public void BadExample() {
+  public void badExample() {
     Rectangle rectangle = new Rectangle(10, 5);
     rectangle.setHeight(11);
     System.out.println("Expected area = 11 * 5 = 55");
@@ -21,7 +21,7 @@ public class LiskovSubstitutionPrinciple {
     System.out.println("Calculate Area: " + square.calculateArea()); // Gives 36 instead of 30, because setting width to 5, also sets height to 5. This violates LSP.
   }
 
-  public void GoodExample() {
+  public void goodExample() {
     Shape rectangle = new Rectangle(10, 5);
     System.out.println("Expected area = 10 * 5 = 50");
     System.out.println("Calculate Area: " + rectangle.calculateArea());

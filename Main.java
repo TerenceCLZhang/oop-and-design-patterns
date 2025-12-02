@@ -27,6 +27,6 @@ public class Main {
       new LiskovSubstitutionPrinciple();
 
     // Testing
-    liskovSubstitutionPrinciple.GoodExample();
+    liskovSubstitutionPrinciple.goodExample();
   }
 }

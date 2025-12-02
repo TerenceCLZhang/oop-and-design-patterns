@@ -7,7 +7,7 @@ public class Encapsulation {
    * and restricting direct access to internal state.
    */
 
-  public void BadExample() {
+  public void badExample() {
     /*
      * The code above demonstrates a poor practice: exposing the balance field directly.
      * This breaks encapsulation because external code can assign invalid values(e.g., a negative balance).
@@ -18,7 +18,7 @@ public class Encapsulation {
     System.out.println(badAccount.balance); // -50 (invalid state)
   }
 
-  public void GoodExample() {
+  public void goodExample() {
     /*
      * To enforce proper encapsulation, the balance field is marked as private, and all access to it is
      * controlled through public methods. These methods—such as Deposit and Withdraw—ensure that any changes
