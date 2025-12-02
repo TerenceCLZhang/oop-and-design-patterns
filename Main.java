@@ -4,6 +4,8 @@ import OOP_Principles.Coupling.Coupling;
 import OOP_Principles.Encapsulation.Encapsulation;
 import OOP_Principles.Inheritance.Inheritance;
 import OOP_Principles.Polymorphism.Polymorphism;
+import SOLID.Liskov_Substitution_Principle.LiskovSubstitutionPrinciple;
+import SOLID.Open_Closed_Principle.OpenClosedPrinciple;
 import SOLID.Single_Responsibility_Principle.SingleResponsibilityPrinciple;
 
 public class Main {
@@ -20,8 +22,11 @@ public class Main {
     // SOLID Principles
     SingleResponsibilityPrinciple singleResponsibilityPrinciple =
       new SingleResponsibilityPrinciple();
+    OpenClosedPrinciple openClosedPrinciple = new OpenClosedPrinciple();
+    LiskovSubstitutionPrinciple liskovSubstitutionPrinciple =
+      new LiskovSubstitutionPrinciple();
 
     // Testing
-    singleResponsibilityPrinciple.BadExample();
+    liskovSubstitutionPrinciple.GoodExample();
   }
 }
