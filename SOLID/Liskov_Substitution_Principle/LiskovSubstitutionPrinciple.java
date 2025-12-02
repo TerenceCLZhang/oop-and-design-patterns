@@ -22,6 +22,8 @@ public class LiskovSubstitutionPrinciple {
   }
 
   public void goodExample() {
+    // Both Rectangle and Square are substitutable as Shape, meaning it follows LSP.
+
     Shape rectangle = new Rectangle(10, 5);
     System.out.println("Expected area = 10 * 5 = 50");
     System.out.println("Calculate Area: " + rectangle.calculateArea());
