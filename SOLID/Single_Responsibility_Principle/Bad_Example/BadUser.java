@@ -1,4 +1,6 @@
-package SOLID.Single_Responsibility_Principle;
+package SOLID.Single_Responsibility_Principle.Bad_Example;
+
+import SOLID.Single_Responsibility_Principle.EmailSender;
 
 public class BadUser {
 

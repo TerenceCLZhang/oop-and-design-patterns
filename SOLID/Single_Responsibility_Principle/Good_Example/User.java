@@ -1,4 +1,4 @@
-package SOLID.Single_Responsibility_Principle;
+package SOLID.Single_Responsibility_Principle.Good_Example;
 
 public class User {
 

@@ -1,5 +1,10 @@
 package SOLID.Open_Closed_Principle;
 
+import SOLID.Open_Closed_Principle.Bad_Example.BadShape;
+import SOLID.Open_Closed_Principle.Good_Example.Circle;
+import SOLID.Open_Closed_Principle.Good_Example.Rectangle;
+import SOLID.Open_Closed_Principle.Good_Example.Shape;
+
 public class OpenClosedPrinciple {
 
   /*

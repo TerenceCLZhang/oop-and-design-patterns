@@ -1,4 +1,6 @@
-package SOLID.Single_Responsibility_Principle;
+package SOLID.Single_Responsibility_Principle.Good_Example;
+
+import SOLID.Single_Responsibility_Principle.EmailSender;
 
 public class UserRegistrationService {
 

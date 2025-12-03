@@ -1,5 +1,8 @@
 package SOLID.Liskov_Substitution_Principle;
 
+import SOLID.Liskov_Substitution_Principle.Bad_Example.BadSquare;
+import SOLID.Liskov_Substitution_Principle.Good_Example.GoodSquare;
+
 public class LiskovSubstitutionPrinciple {
 
   /*
@@ -28,7 +31,7 @@ public class LiskovSubstitutionPrinciple {
     System.out.println("Expected area = 10 * 5 = 50");
     System.out.println("Calculate Area: " + rectangle.calculateArea());
 
-    Shape square = new Square(5);
+    Shape square = new GoodSquare(5);
     System.out.println("Expected area = 5 * 5 = 25");
     System.out.println("Calculate Area: " + square.calculateArea());
   }

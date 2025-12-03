@@ -1,5 +1,9 @@
 package SOLID.Single_Responsibility_Principle;
 
+import SOLID.Single_Responsibility_Principle.Bad_Example.BadUser;
+import SOLID.Single_Responsibility_Principle.Good_Example.User;
+import SOLID.Single_Responsibility_Principle.Good_Example.UserRegistrationService;
+
 public class SingleResponsibilityPrinciple {
 
   /*

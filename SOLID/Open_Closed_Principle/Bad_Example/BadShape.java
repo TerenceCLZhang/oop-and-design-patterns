@@ -1,4 +1,6 @@
-package SOLID.Open_Closed_Principle;
+package SOLID.Open_Closed_Principle.Bad_Example;
+
+import SOLID.Open_Closed_Principle.ShapeType;
 
 public class BadShape {
 

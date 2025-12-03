@@ -1,4 +1,6 @@
-package SOLID.Liskov_Substitution_Principle;
+package SOLID.Liskov_Substitution_Principle.Bad_Example;
+
+import SOLID.Liskov_Substitution_Principle.Rectangle;
 
 public class BadSquare extends Rectangle {
 

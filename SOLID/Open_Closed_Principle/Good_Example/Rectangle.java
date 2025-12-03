@@ -1,4 +1,4 @@
-package SOLID.Open_Closed_Principle;
+package SOLID.Open_Closed_Principle.Good_Example;
 
 public class Rectangle extends Shape {
 
