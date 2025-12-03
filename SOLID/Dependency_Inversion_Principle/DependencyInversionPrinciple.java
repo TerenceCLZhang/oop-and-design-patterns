@@ -9,6 +9,7 @@ public class DependencyInversionPrinciple {
 
   /*
         High level modules should not depend on low level modules. Both should depend on abstraction.
+        Low level modules (e.g. Engine) deals with specific implementation details, while high level modules (e.g. Car) encoumpases a broader scope and encompases many components. 
         Classes should depend either on abstract classes or interfaces, rather than concrete classes.
         Promotes de-copupling between components, improving flexibility, maintainability, and ease of testing.
     */
