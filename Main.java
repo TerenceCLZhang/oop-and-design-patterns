@@ -1,3 +1,4 @@
+import Design_Patterns.Creational.Singleton.Singleton;
 import OOP_Principles.Abstraction.Abstraction;
 import OOP_Principles.Composition.Composition;
 import OOP_Principles.Coupling.Coupling;
@@ -12,27 +13,26 @@ import SOLID.Single_Responsibility_Principle.SingleResponsibilityPrinciple;
 
 public class Main {
 
-  public static void main(String[] args) {
-    // OOP Principles
-    Encapsulation encapsulation = new Encapsulation();
-    Abstraction abstraction = new Abstraction();
-    Polymorphism polymorphism = new Polymorphism();
-    Inheritance inheritance = new Inheritance();
-    Composition composition = new Composition();
-    Coupling coupling = new Coupling();
+    public static void main(String[] args) {
+        // OOP Principles
+        Encapsulation encapsulation = new Encapsulation();
+        Abstraction abstraction = new Abstraction();
+        Polymorphism polymorphism = new Polymorphism();
+        Inheritance inheritance = new Inheritance();
+        Composition composition = new Composition();
+        Coupling coupling = new Coupling();
 
-    // SOLID Principles
-    SingleResponsibilityPrinciple singleResponsibilityPrinciple =
-      new SingleResponsibilityPrinciple();
-    OpenClosedPrinciple openClosedPrinciple = new OpenClosedPrinciple();
-    LiskovSubstitutionPrinciple liskovSubstitutionPrinciple =
-      new LiskovSubstitutionPrinciple();
-    InterfaceSegregationPrinciple interfaceSegregationPrinciple =
-      new InterfaceSegregationPrinciple();
-    DependencyInversionPrinciple dependencyInversionPrinciple =
-      new DependencyInversionPrinciple();
+        // SOLID Principles
+        SingleResponsibilityPrinciple singleResponsibilityPrinciple = new SingleResponsibilityPrinciple();
+        OpenClosedPrinciple openClosedPrinciple = new OpenClosedPrinciple();
+        LiskovSubstitutionPrinciple liskovSubstitutionPrinciple = new LiskovSubstitutionPrinciple();
+        InterfaceSegregationPrinciple interfaceSegregationPrinciple = new InterfaceSegregationPrinciple();
+        DependencyInversionPrinciple dependencyInversionPrinciple = new DependencyInversionPrinciple();
 
-    // Testing
-    dependencyInversionPrinciple.goodExample();
-  }
+        // Design Patterns
+        Singleton singleton = new Singleton();
+
+        // Testing
+        singleton.goodExample();
+    }
 }
