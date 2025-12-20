@@ -1,3 +1,4 @@
+import Design_Patterns.Creational.Builder.Builder;
 import Design_Patterns.Creational.Singleton.Singleton;
 import OOP_Principles.Abstraction.Abstraction;
 import OOP_Principles.Composition.Composition;
@@ -31,8 +32,9 @@ public class Main {
 
         // Design Patterns
         Singleton singleton = new Singleton();
+        Builder builder = new Builder();
 
         // Testing
-        singleton.goodExample();
+        builder.goodExample();
     }
 }
