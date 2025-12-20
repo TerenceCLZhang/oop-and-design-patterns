@@ -35,6 +35,6 @@ public class Main {
         Builder builder = new Builder();
 
         // Testing
-        builder.goodExample();
+        builder.advancedExample();
     }
 }
